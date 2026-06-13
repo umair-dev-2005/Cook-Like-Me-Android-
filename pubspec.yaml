@@ -1,0 +1,83 @@
+name: cook_like_me
+description: "An app where only cooking related videos will be uploaded"
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+#................... [ PACKAGES ].................
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  get: ^4.7.3
+
+  # Utility Packages
+  smooth_page_indicator: ^2.0.1
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.3.0
+  pin_code_fields: ^9.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  #........................[ LOCAL ASSETS ].......................
+  assets:
+    - assets/images/
+    - assets/images/videos thumbnail/
+    - assets/images/users/
+    - assets/icons/
+  #   - images/a_dot_ham.jpeg
+
+
+  #..................[ LOCAL FONTS ]..........................
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_18pt-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter_18pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter_18pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_18pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_18pt-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+    - family: Poppins
+      fonts:
+         - asset: assets/fonts/Poppins-SemiBold.ttf
+           weight: 600
+    - family: Mona Sans
+      fonts:
+         - asset: assets/fonts/Mona-Sans-Medium.ttf
+           weight: 500
+    - family: SF Pro Rounded
+      fonts:
+        - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf
+          weight: 400
+
+
